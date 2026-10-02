@@ -1,7 +1,7 @@
 {
   "name": "nimply",
   "version": "1.0.0",
-  "description": "Nimply social media management for Grok Build: list connected accounts, draft and schedule posts, run approvals, upload media and read analytics through Nimply's hosted MCP server.",
+  "description": "Nimply social media management for Grok Build: list connected accounts, draft and schedule posts, run approvals, upload media, read analytics and manage Nimply Pages link-in-bio pages through Nimply's hosted MCP server.",
   "author": { "name": "Nimply (Admire Digital Marketing FZC)", "url": "https://nimply.io" },
   "homepage": "https://developer.nimply.io/docs/integrations/grok",
   "repository": "https://github.com/nimply/grok-plugin",

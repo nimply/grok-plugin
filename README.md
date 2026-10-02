@@ -10,6 +10,7 @@ What you can do once connected:
 - Browse, edit, reschedule, unschedule or delete drafts and scheduled posts.
 - Run the approval workflow: request approval, approve or reject with comments.
 - Read workspace, channel and post analytics.
+- Manage Nimply Pages link-in-bio pages (nimply.link): list pages, add or change blocks, publish.
 
 ## Install
 
@@ -43,7 +44,7 @@ No other hosts are contacted. Nimply receives only the tool calls Grok makes, ne
 
 ## Tools
 
-23 tools: `list_channels`, `get_posting_schedule`, `create_post`, `create_youtube_video`, `create_tiktok_post`, `create_pinterest_pin`, `create_linkedin_post`, `get_pinterest_boards`, `get_tiktok_creator_info`, `list_posts`, `get_post`, `update_post`, `schedule_post`, `unschedule_post`, `publish_post`, `delete_post`, `request_approval`, `approve_post`, `reject_post`, `upload_media`, `create_media_upload`, `complete_media_upload`, `get_analytics`. Every tool carries MCP annotations (read-only / destructive / open-world) so Grok can ask before anything goes live. Full reference: https://developer.nimply.io/docs/mcp
+28 tools: `list_channels`, `get_posting_schedule`, `create_post`, `create_youtube_video`, `create_tiktok_post`, `create_pinterest_pin`, `create_linkedin_post`, `get_pinterest_boards`, `get_tiktok_creator_info`, `list_posts`, `get_post`, `update_post`, `schedule_post`, `unschedule_post`, `publish_post`, `delete_post`, `request_approval`, `approve_post`, `reject_post`, `upload_media`, `create_media_upload`, `complete_media_upload`, `get_analytics`, `list_link_pages`, `get_link_page`, `add_link_block`, `update_link_block`, `publish_link_page`. Every tool carries MCP annotations (read-only / destructive / open-world) so Grok can ask before anything goes live. Full reference: https://developer.nimply.io/docs/mcp
 
 ## Requirements
 

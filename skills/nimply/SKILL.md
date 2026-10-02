@@ -1,6 +1,6 @@
 ---
 name: nimply
-description: Use when the user wants to plan, draft, schedule, publish, approve or measure social media posts in their Nimply workspace through the Nimply MCP tools (list_channels, create_post, schedule_post, get_analytics and friends).
+description: Use when the user wants to plan, draft, schedule, publish, approve or measure social media posts, or edit their Nimply Pages link-in-bio page, through the Nimply MCP tools (list_channels, create_post, schedule_post, get_analytics, publish_link_page and friends).
 ---
 
 # Working with Nimply
@@ -28,6 +28,10 @@ Nimply is a social media management workspace. The `nimply` MCP server exposes i
 ## Analytics
 
 `get_analytics` with `scope="workspace"` (totals), `"channel"` + id (daily series) or `"post"` + id (snapshots). Dates are ISO 8601; default is the last 30 days.
+
+## Link-in-bio pages (Nimply Pages)
+
+`list_link_pages` → `get_link_page` (blocks in display order) → `add_link_block` / `update_link_block` edit the draft → `publish_link_page` makes it live at the page's nimply.link URL. Visitors never see unpublished changes, so always finish with `publish_link_page` when the user asked for the change to go live, and say so if you left it as a draft.
 
 ## Rules of thumb
 
